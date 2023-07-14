@@ -1,8 +1,7 @@
 import Head from "next/head";
 import { type NextPage } from "next";
-import Welcome from "../components/Welcome";
 
-export const Home: NextPage = () => {
+export const About: NextPage = () => {
   return (
     <>
       <Head>
@@ -11,10 +10,10 @@ export const Home: NextPage = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       <main>
-        <Welcome />
+        <h1>About</h1>
       </main>
     </>
   );
 };
 
-export default Home;
+export default About;
